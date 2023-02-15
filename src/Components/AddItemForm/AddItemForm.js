@@ -24,8 +24,9 @@ function AddItemForm() {
                 type="text"
                 onChange={handleChange}
                 placeholder = "add item"
+                className='form__container'
             />
-            <button>Add</button>
+            <button className='form__button'>Add</button>
         </form>
     )
 }
